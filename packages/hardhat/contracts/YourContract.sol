@@ -12,11 +12,11 @@ import "hardhat/console.sol";
  * It also allows the owner to withdraw the Ether in the contract
  * @author BuidlGuidl
  */
-contract YourContract {
+contract NoReturn {
     // State Variables
     address public immutable owner;
-    string public greeting = "Building Unstoppable Apps!!!";
-    bool public premium = false;
+    string public greeting = "init noreturn";
+    bool public member = true;
     uint256 public totalCounter = 0;
     mapping(address => uint) public userGreetingCounter;
 
